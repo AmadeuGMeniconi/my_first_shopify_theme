@@ -33,6 +33,18 @@ To use the repository for making Shopify themes, use the following command of Sh
 shopify theme dev --store dev-store-udemy-course.myshopify.com
 ```
 
+Alternatively you can run the scripts:
+
+```sh
+yarn dev
+```
+
+or
+
+```sh
+npm run dev
+```
+
 If you don't have Shopify CLI installed to your computer, navigate to the [installation page of Shopify CLI](https://shopify.dev/themes/tools/cli/installation).
 
 ---
@@ -41,4 +53,16 @@ Also remember to have TailwindCSS node package then run the following command du
 
 ```sh
 npx tailwindcss -i ./css/tailwind.css -o ./assets/application.css --watch
+```
+
+Alternatively you can run the scripts:
+
+```sh
+yarn tailwind
+```
+
+or
+
+```sh
+npm run tailwind
 ```
