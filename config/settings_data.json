@@ -1,6 +1,26 @@
 {
-   "current": "Default",
-   "presets": {
-      "Default": {}
-   }
+  "current": {
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#3a3a3a",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#2f2f2f",
+    "checkout_accent_color": "#8ed964",
+    "checkout_button_color": "#8ed964",
+    "checkout_error_color": "#dd1d5b",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Default": {
+    }
+  }
 }
