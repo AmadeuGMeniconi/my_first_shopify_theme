@@ -1,5 +1,10 @@
 <div class="homepage">
-    <img src="{{ 'weeklyhow-logo.png' | asset_img_url: 'large' }}" class="logo">
-    <h1>Welcome to Shopify Theme Development course!</h1>
-    <p>{% render 'homepage-text' %}</p>
+  <img
+    src="{{ 'weeklyhow-logo.png' | asset_img_url: 'large' }}"
+    width="{{ image.width }}"
+    height="{{ image.height }}"
+    class="logo"
+    loading="eager">
+  <h1>Welcome to Shopify Theme Development course!</h1>
+{% comment %} <p>{% render 'homepage-text' %}</p> {% endcomment %}
 </div>
